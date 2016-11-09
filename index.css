@@ -1,0 +1,169 @@
+body,img,ul,li,a{margin: 0;padding: 0;list-style: none;text-decoration: none}
+.headbox{
+    height:40px;
+    background: #444444;
+}
+.headbox .header span{
+    float: right;
+    line-height: 40px;
+    color:#A8A8AA;
+    font-size:8px;
+    font-family: "苹方";
+}
+.navbox{
+    height: 49px;
+    background: #333333;
+}
+.navbox ul li a{
+    color: #D8D8D8;
+    font-family: "苹方";
+    font-size: 14px;
+}
+.navbox ul li a:hover{
+    color:#979797;
+}
+.bannerbox{
+    width:1350px;
+    height: 540px;
+    margin: 0 auto;
+    position: relative;
+}
+.bannerbox .imgbox .img{
+    width:1340px;
+    height: 540px;
+    position: absolute;
+    left: 0;top:0;
+}
+.bannerbox .btn{
+    width: 80px;
+    height:80px;
+    background:rgba(51,51,51,0.2);
+    border-radius: 50%;
+    line-height:80px;
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 18px;
+    position: absolute;
+    top: 0;bottom:0;margin: auto 0;
+    z-index: 11;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+h1,h2{
+    color: white;
+}
+.conbox{
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.conbox div{
+    width:300px;
+    height: 200px;
+    float: left;
+    border-right: 1px solid white;
+}
+.fail{
+    width: 1349px;
+    height: 404px;
+    margin: auto;
+}
+.con{
+    width:100%;
+    height: auto;
+    background: #F2F2F2;
+}
+.content{
+    width:980px;
+    height:48px;
+    margin: auto;
+    line-height: 48px;
+    text-align: left;
+    font-size: 12px;
+    color: #999999;
+    background: #F2F2F2;
+    border-bottom:1px solid #ccc ;
+}
+.failbox{
+    width: 100%;
+    height:384px;
+    margin: auto;
+    background: #F2F2F2;
+    padding-top: 20px;
+}
+.fail{
+    width: 1000px;
+    height:50%;
+    margin: auto;
+}
+.contentbox{
+    width:100%;
+    height: auto;
+    background: #F2F2F2;
+    margin: auto;
+}
+.fail ul{
+    width: 20%;
+    float: left;
+    font-size: 12px;
+    font-family: "苹方";
+}
+.fail ul a, .fail div a {
+    color: #666666;
+}
+.title{
+    font-weight: bold;
+    color: black;
+}
+.failness{
+    width:1000px;
+    height:26px;
+    margin: auto;
+    line-height: 26px;
+    border-bottom: 1px solid #E3E3E3;
+    font-size: 12px;
+    color: #999999;
+}
+.failness a{
+    font-size: 12px;
+    color: #0070C9;
+}
+.failkill{
+    width: 1000px;
+    margin: auto;
+    height: 20px;
+    line-height: 20px;
+}
+.kill{
+    float: left;
+    font-size: 12px;
+    color: #999999;
+}
+.kill span{
+    font-size: 12px;
+}
+.kill span a{
+    color: #666666;
+}
+.killicon{
+    float: right;
+    width: 42px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.killicon a{
+    color: #666666;
+}
+.foot{
+    width: 1000px;
+    margin: 20px;
+    margin: auto;
+    line-height: 20px;
+    font-size: 12px;
+    color:#999999;
+}
