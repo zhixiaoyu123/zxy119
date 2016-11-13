@@ -1,0 +1,611 @@
+* {
+    box-sizing: border-box;
+}
+body,
+a,
+ul,
+li,
+img,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    width: 100%;
+    height: 40px;
+    background: #444444;
+}
+.nav_box {
+    height: 44px;
+    background: #010101;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.col-m-1 {
+    width: 5%;
+}
+.col-m-2 {
+    width: 10%;
+}
+.col-m-3 {
+    width: 15%;
+}
+.col-m-4 {
+    width: 20%;
+}
+.col-m-5 {
+    width: 25%;
+}
+.col-m-6 {
+    width: 30%;
+}
+.col-m-7 {
+    width: 35%;
+}
+.col-m-8 {
+    width: 40%;
+}
+.col-m-9 {
+    width: 45%;
+}
+.col-m-10 {
+    width: 50%;
+}
+.col-m-11 {
+    width: 55%;
+}
+.col-m-12 {
+    width: 60%;
+}
+.col-m-13 {
+    width: 65%;
+}
+.col-m-14 {
+    width: 70%;
+}
+.col-m-15 {
+    width: 75%;
+}
+.col-m-16 {
+    width: 80%;
+}
+.col-m-17 {
+    width: 85%;
+}
+.col-m-18 {
+    width: 90%;
+}
+.col-m-19 {
+    width: 95%;
+}
+.col-m-20 {
+    width: 100%;
+}
+.col-m-hide {
+    display: block;
+}
+.col-c-hide {
+    display: none;
+}
+.col-l-hide {
+    display: none;
+}
+.nav {
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 44px;
+    overflow: hidden;
+    font-family: inherit;
+    position: relative;
+    margin: 0 auto;
+}
+.nav .nav_first {
+    position: absolute;
+    left: 50%;
+}
+.nav .nav_last1 {
+    position: absolute;
+    right: 10px;
+}
+.nav li {
+    height: 100%;
+    float: left;
+    padding: 0 10px;
+}
+.nav a {
+    color: #fff;
+}
+.banner {
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+}
+.imgs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imgs a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.smallbanner {
+    width: 100%;
+    overflow: hidden;
+}
+.smallbanner li {
+    border: 1px solid #fff;
+    float: left;
+    height: 200px;
+}
+.smallbanner li:before,
+.smallbanner li:after {
+    content: "";
+    display: block;
+}
+.smallbanner li:after {
+    clear: both;
+}
+.smallbanner li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.smimgs1 {
+    background: url("img/nike_watch_small.jpg") no-repeat center center;
+}
+.smimgs2 {
+    background: url("img/airpods_small.jpg") no-repeat center center;
+}
+.smimgs3 {
+    background: url("img/iphone_upgrade_small.jpg") no-repeat center center;
+}
+.smimgs4 {
+    background: url("img/accessibility_small.jpg") no-repeat center center;
+}
+.servicebox {
+    width: 100%;
+    overflow: hidden;
+    background: #F2F2F2;
+}
+.service {
+    width: 100%;
+    padding: 0 22px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.service p {
+    width: 100%;
+    height: 20px;
+    padding: 16px 0 11px;
+    font-size: 0.7em;
+    font-weight: 400;
+    boder-bottom: 1px solid #E3E3E3;
+    color: #999;
+}
+.service_inner {
+    padding-top: 20px;
+    overflow: hidden;
+    font-family: inherit;
+}
+.service_inner h3 {
+    color: #333;
+}
+.footer_nav {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    overflow: hidden;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 15px;
+}
+.footer_nav span {
+    display: block;
+    line-height: 38px;
+    border-bottom: 1px solid #E3E3E3;
+    font-weight: 400;
+    color: #666;
+    cursor: pointer;
+    position: relative;
+}
+.footnav strong {
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+}
+.footer_nav a {
+    color: #707070;
+    line-height: 22px;
+}
+.footer_nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.footer_info {
+    font-size: 10px;
+    font-family: "微软雅黑";
+}
+.footer_shop {
+    margin-top: 20px;
+    width: 100%;
+    line-height: 26px;
+    color: #9B9B9B;
+    border-bottom: 1px solid #E3E3E3;
+}
+.footer_shop a {
+    color: #0070C9;
+    display: inline-block;
+}
+.footer_shop a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.footer_about {
+    width: 100%;
+    line-height: 20px;
+}
+.footer_about:before,
+.footer_about:after {
+    content: "";
+    display: block;
+}
+.footer_about:after {
+    clear: both;
+}
+.banquan {
+    color: #9B9B9B;
+    float: left;
+}
+.more {
+    float: left;
+}
+.more a {
+    color: #666;
+    border-right: 1px solid #d6d6d6;
+    float: left;
+    padding-right: 12px;
+    margin-right: 10px;
+}
+.more a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.china {
+    float: right;
+}
+.china a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.china_img {
+    margin-top: 2px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    background: url("img/16.png") no-repeat center;
+}
+.china a {
+    color: #666;
+}
+.footer_last {
+    width: 100%;
+    line-height: 26px;
+    color: #9B9B9B;
+    padding: 8px 0 50px 0;
+}
+.footer_last a {
+    display: inline-block;
+    color: #9B9B9B;
+}
+.footer_last a:hover {
+    text-decoration: underline;
+}
+@media screen and (min-width: 750px) {
+    .nav .nav_first {
+        display: none;
+    }
+    .nav li {
+        margin-right: 4%;
+    }
+
+    .nav .nav_last {
+        margin-right: 0;
+    }
+    .nav .nav_last1 {
+        display: none;
+    }
+    .smimgs1 {
+        background: url("img/nike_watch_medium.jpg") no-repeat center center;
+    }
+    .smimgs2 {
+        background: url("img/airpods_medium.jpg") no-repeat center center;
+    }
+    .smimgs3 {
+        background: url("img/iphone_upgrade_medium.jpg") no-repeat center center;
+    }
+    .smimgs4 {
+        background: url("img/accessibility_medium.jpg") no-repeat center center;
+    }
+    .footer_nav {
+        font-size: 12px;
+        font-family: "微软雅黑";
+        overflow: hidden;
+        margin-top: 0;
+        border-top: 0;
+    }
+    .footer_nav_ap {
+        width: 20%;
+        float: left;
+    }
+    .footer_nav span {
+        display: block;
+        line-height: normal;
+        padding: 20px 0 5px 0;
+        font-weight: bold;
+        color: #444;
+        cursor: default;
+        border-bottom: 0;
+    }
+    .footnav strong {
+        display: none;
+    }
+    .footer_nav a {
+        color: #707070;
+        line-height: 22px;
+    }
+    .footer_nav a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+    .footer_info {
+        font-size: 10px;
+        font-family: "微软雅黑";
+    }
+    .footer_shop {
+        margin-top: 20px;
+        width: 100%;
+        line-height: 26px;
+        color: #9B9B9B;
+        border-bottom: 1px solid #E3E3E3;
+    }
+    .footer_shop a {
+        color: #0070C9;
+        display: inline-block;
+    }
+    .footer_shop a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+    .footer_about {
+        width: 100%;
+        line-height: 20px;
+    }
+    .footer_about:before,
+    .footer_about:after {
+        content: "";
+        display: block;
+    }
+    .footer_about:after {
+        clear: both;
+    }
+    .banquan {
+        color: #9B9B9B;
+        float: left;
+    }
+    .more {
+        float: left;
+    }
+    .more a {
+        color: #666;
+        border-right: 1px solid #d6d6d6;
+        float: left;
+        padding-right: 12px;
+        margin-right: 10px;
+    }
+    .more a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+    .china {
+        float: right;
+    }
+    .china a:hover {
+        color: #000;
+        text-decoration: underline;
+    }
+    .china_img {
+        margin-top: 2px;
+        width: 16px;
+        height: 16px;
+        display: block;
+        float: left;
+        background: url("img/16.png") no-repeat center;
+    }
+    .china a {
+        color: #666;
+    }
+    .footer_last {
+        width: 100%;
+        line-height: 26px;
+        color: #9B9B9B;
+        padding: 8px 0 50px 0;
+    }
+    .footer_last a {
+        display: inline-block;
+        color: #9B9B9B;
+    }
+    .footer_last a:hover {
+        text-decoration: underline;
+    }
+    .col-c-1 {
+        width: 5%;
+    }
+    .col-c-2 {
+        width: 10%;
+    }
+    .col-c-3 {
+        width: 15%;
+    }
+    .col-c-4 {
+        width: 20%;
+    }
+    .col-c-5 {
+        width: 25%;
+    }
+    .col-c-6 {
+        width: 30%;
+    }
+    .col-c-7 {
+        width: 35%;
+    }
+    .col-c-8 {
+        width: 40%;
+    }
+    .col-c-9 {
+        width: 45%;
+    }
+    .col-c-10 {
+        width: 50%;
+    }
+    .col-c-11 {
+        width: 55%;
+    }
+    .col-c-12 {
+        width: 60%;
+    }
+    .col-c-13 {
+        width: 65%;
+    }
+    .col-c-14 {
+        width: 70%;
+    }
+    .col-c-15 {
+        width: 75%;
+    }
+    .col-c-16 {
+        width: 80%;
+    }
+    .col-c-17 {
+        width: 85%;
+    }
+    .col-c-18 {
+        width: 90%;
+    }
+    .col-c-19 {
+        width: 95%;
+    }
+    .col-c-20 {
+        width: 100%;
+    }
+    .col-m-hide {
+        display: block;
+    }
+    .col-c-hide {
+        display: block;
+    }
+    .col-l-hide {
+        display: none;
+    }
+}
+@media screen and (min-width: 1049px) {
+    .nav {
+        width: 1000px;
+    }
+    .nav li {
+        margin-right: 6%;
+    }
+    .smimgs1 {
+        background: url("img/nike_watch_large.jpg") no-repeat center center;
+    }
+    .smimgs2 {
+        background: url("img/airpods_large.jpg") no-repeat center center;
+    }
+    .smimgs3 {
+        background: url("img/iphone_upgrade_large.jpg") no-repeat center center;
+    }
+    .smimgs4 {
+        background: url("img/accessibility_large.jpg") no-repeat center center;
+    }
+    .col-l-1 {
+        width: 5%;
+    }
+    .col-l-2 {
+        width: 10%;
+    }
+    .col-l-3 {
+        width: 15%;
+    }
+    .col-l-4 {
+        width: 20%;
+    }
+    .col-l-5 {
+        width: 25%;
+    }
+    .col-l-6 {
+        width: 30%;
+    }
+    .col-l-7 {
+        width: 35%;
+    }
+    .col-l-8 {
+        width: 40%;
+    }
+    .col-l-9 {
+        width: 45%;
+    }
+    .col-l-10 {
+        width: 50%;
+    }
+    .col-l-11 {
+        width: 55%;
+    }
+    .col-l-12 {
+        width: 60%;
+    }
+    .col-l-13 {
+        width: 65%;
+    }
+    .col-l-14 {
+        width: 70%;
+    }
+    .col-l-15 {
+        width: 75%;
+    }
+    .col-l-16 {
+        width: 80%;
+    }
+    .col-l-17 {
+        width: 85%;
+    }
+    .col-l-18 {
+        width: 90%;
+    }
+    .col-l-19 {
+        width: 95%;
+    }
+    .col-l-20 {
+        width: 100%;
+    }
+    .col-m-hide {
+        display: block;
+    }
+    .col-c-hide {
+        display: block;
+    }
+    .col-l-hide {
+        display: block;
+    }
+}
